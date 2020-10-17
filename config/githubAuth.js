@@ -25,6 +25,6 @@ passport.use(new GitHubStrategy({
             const createUser = await githubUsers.query().insert(Profile)
             console.log("Data inserted!")
         }
-        await done(null , Profile)
+        done(null , Profile)
     }   
 ));
