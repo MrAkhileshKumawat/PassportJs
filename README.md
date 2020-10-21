@@ -13,7 +13,7 @@ Clone this app using the command:
 ## How to run the Project?
 
 1. `cd PassportJs/`
-2. `npm init` to install the dependencies
+2. `npm install` to install the dependencies
 3. Create a .env file in the root directory of the project and update the required variables. You can use sample.env as the skeleton.
 4. `npm start` to run the server. The server will run with auto reloading using nodemon.
 
